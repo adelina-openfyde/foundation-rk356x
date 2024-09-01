@@ -1,4 +1,4 @@
-## foundation-rk3588
+## foundation-rk356x
 
 ![Logo badge](https://img.shields.io/endpoint?url=https://logo-badge-without-release-image-0lnvd7unef6z.runkit.sh) 
 
@@ -6,7 +6,7 @@ A "**foundation**" in openFyde is where we keep reusable and shared assets, they
 
 Often a foundation is made towards a family or a specific model of SoC, all devices in openFyde having this (family of) SoC will then be able to inherit from this foundation.
 
-This repository has the foundation for the RK3588 SoC.
+This repository has the foundation for the RK3566/RK3568/RK3568J SoC.
 
 
 <br>
