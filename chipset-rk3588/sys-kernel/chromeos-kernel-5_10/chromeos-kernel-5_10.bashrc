@@ -2,7 +2,7 @@ _cros-kernel_emit_its_script() {
   local its_out=${1}
   local kernel_dir=${2}
   local dtb=${3}
-  local its_template=${CHIPSET_RK3588_BASHRC_FILESDIR}/image.its
+  local its_template=${CHIPSET_RK356x_BASHRC_FILESDIR}/image.its
   kernel_bin_path="${kernel_dir}/$(_cros-kernel_get_compressed_path)"
   cat ${its_template} | sed "s#BOOT_IMG#${kernel_bin_path}#g" | \
     sed "s#BOARD_DTB#${dtb}#g" > $its_out

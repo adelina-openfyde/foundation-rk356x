@@ -10,4 +10,4 @@ LICENSE="metapackage"
 SLOT="0"
 KEYWORDS="*"
 
-RDEPEND="chromeos-base/arc-codec-chipset-rk3588"
+RDEPEND="chromeos-base/arc-codec-chipset-rk356x"
