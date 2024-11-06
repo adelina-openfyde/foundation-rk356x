@@ -11,7 +11,7 @@ KEYWORDS="-* arm arm64"
 IUSE=""
 
 DEPEND="
-	media-libs/mali-drivers-valhall-bin
+	media-libs/mali-drivers-biforst-bin
 	x11-drivers/opengles-headers
 "
 RDEPEND="${DEPEND}"
